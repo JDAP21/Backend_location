@@ -18,7 +18,7 @@ app.use(cors({
     credentials: true,
 }));
 
-app.use('/api/v1', routes);
+app.use(routes);
 
 dbConnection();
 
